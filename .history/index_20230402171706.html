@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Junichi | Portfolio Site</title>
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- boxicons icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="main-content">
+    <header class="section sec1 header active" id="home">
+      <div class="header-content">
+        <div class="header-content__left">
+          <div class="h-shape"></div>
+          <div class="header-content__image">
+            <img src="img/hero.png" alt="">
+          </div>
+        </div>
+        <div class="header-content__right">
+          <h1 class="header-content__name">Junchi Machii</h1>
+          <p>Portfolio</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section sec2 about"  id="about">
+        <div class="main-title">
+          <h2>Skills <span class="bg-text">my skiis</span></h2>
+        </div>
+        <div class="about-container">
+          <div class="skills__wrapper">
+            <div class="skill__bar">
+              <div class="skill__wrapper">
+                <p>HTML</p>
+                <span class="score count" data-max="80">0%</span>
+                <div class="bar progress" style="--max: 80%"></div>
+              </div> 
+              <div class="skill__wrapper">
+                <p>CSS</p>
+                <span class="score count" data-max="60">0%</span>
+                <div class="bar progress" style="--max: 60%"></div>
+              </div>
+              <div class="skill__wrapper">
+                <p>javascript</p>
+                <span class="score count" data-max="50">0%</span>
+                <div class="bar progress" style="--max: 50%"></div>
+              </div>
+              <div class="skill__wrapper">
+                <p>php</p>
+                <span class="score count" data-max="30">0%</span>
+                <div class="bar progress" style="--max: 30%"></div>
+              </div>
+              <div class="skill__wrapper">
+                <p>react</p>
+                <span class="score count" data-max="30">0%</span>
+                <div class="bar progress" style="--max: 15%"></div>
+              </div>
+            </div>
+            <div class="skill__icon">
+              <i class='bx bxl-html5'></i>
+              <i class='bx bxl-css3'></i>
+              <i class='bx bxl-javascript'></i>
+              <i class='bx bxl-php'></i>
+              <i class='bx bxl-react' ></i>
+            </div>
+      </section>
+
+      <section class="section sec3 portfolio"  id="portfolio">
+        <div class="main-title">
+          <h2>Portfolio <span class="bg-text">my work</span></h2>
+        </div>
+        <div class="portfolios">
+          <div class="portfolio__item">
+            <div class="portfolio__image">
+              <img src="/img/port1.jpg" alt="" class="">
+            </div>
+            <div class="portfolio__item-hover">
+              <h3>Project </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section sec4 blogs"  id="blogs"></section>
+      <section class="section sec5 contact"  id="contact"></section>
+    </main>
+
+    <div class="controlls">
+      <div class="control control_1 active-btn" data-id="home">
+        <i class="bx bx-home"></i>
+      </div>
+      <div class="control control_2" data-id="about">
+        <i class="bx bx-user"></i>
+      </div>
+      <div class="control control_3" data-id="portfolio">
+        <i class="bx bx-briefcase"></i>
+      </div>
+      <div class="control control_4" data-id="blogs">
+        <i class="bx bx-news"></i>
+      </div>
+      <div class="control control_5" data-id="contact">
+        <i class="bx bx-envelope-open"></i>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
